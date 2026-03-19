@@ -1,17 +1,23 @@
-# Bangseongbeom Txikijs
+# txiki.js Homebrew Tap
 
-## How do I install these formulae?
+## How do I install txiki.js?
 
-`brew install bangseongbeom/txikijs/<formula>`
+```sh
+brew install bangseongbeom/txikijs/txikijs
+```
 
-Or `brew tap bangseongbeom/txikijs` and then `brew install <formula>`.
+<details>
+
+Or `brew tap bangseongbeom/txikijs` and then `brew install txikijs`.
 
 Or, in a `brew bundle` `Brewfile`:
 
 ```ruby
 tap "bangseongbeom/txikijs"
-brew "<formula>"
+brew "txikijs"
 ```
+
+</details>
 
 ## Documentation
 
