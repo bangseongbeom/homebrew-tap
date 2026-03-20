@@ -19,6 +19,8 @@ class Txikijs < Formula
 
   # txiki.js builds WAMR with SIMD support, which requires SIMDe via FetchContent
   resource "simde" do
+    # Follow the SIMDe version in WAMR:
+    # https://github.com/bytecodealliance/wasm-micro-runtime/blob/main/core/iwasm/libraries/simde/simde.cmake
     url "https://github.com/simd-everywhere/simde/archive/refs/tags/v0.8.2.tar.gz"
     sha256 "ed2a3268658f2f2a9b5367628a85ccd4cf9516460ed8604eed369653d49b25fb"
   end
