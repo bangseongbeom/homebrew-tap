@@ -6,11 +6,22 @@
 brew install bangseongbeom/txikijs/txikijs
 ```
 
+Alternatively, you can use the following methods:
+
 <details>
+<summary>Using <code>brew tap</code></summary>
 
-Or `brew tap bangseongbeom/txikijs` and then `brew install txikijs`.
+```sh
+brew tap bangseongbeom/txikijs
+brew install txikijs
+```
 
-Or, in a `brew bundle` `Brewfile`:
+</details>
+
+<details>
+<summary>Using <code>brew bundle</code></summary>
+
+In a `Brewfile`:
 
 ```ruby
 tap "bangseongbeom/txikijs"
