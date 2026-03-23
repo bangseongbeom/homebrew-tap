@@ -30,6 +30,13 @@ brew "txikijs"
 
 </details>
 
+## How do I uninstall txiki.js?
+
+```sh
+brew uninstall txikijs
+brew untap bangseongbeom/txikijs
+```
+
 ## Documentation
 
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
