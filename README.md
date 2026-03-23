@@ -1,4 +1,4 @@
-# txiki.js Homebrew Tap
+# [txiki.js](https://txikijs.org/) Homebrew Tap
 
 ## How do I install txiki.js?
 
