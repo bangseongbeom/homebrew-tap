@@ -9,10 +9,10 @@ class Txikijs < Formula
   head "https://github.com/saghul/txiki.js.git", branch: "master"
 
   bottle do
-    root_url "https://github.com/bangseongbeom/homebrew-txikijs/releases/download/txikijs-26.3.0"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "f2b3c9060b41b6e6bc01b7863c978ae90a24bb3b36dd2a3820b03609525e8496"
-    sha256 cellar: :any_skip_relocation, sequoia:      "e4d6d5b3776b2f4fd5fd6b6b864d36d3d1943a0390a2461fcc0578dd6eaaa637"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "fa815e7bb283bba6d12a33e707bdc387cd858c8590a831944f88ba6cc79fd15e"
+    root_url "https://github.com/bangseongbeom/homebrew-txikijs/releases/download/txikijs-26.3.1"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "8f27f62b73f70a158a08152e664366809cf00bb7490fc4c2ee475feea8cd0f6a"
+    sha256 cellar: :any_skip_relocation, sequoia:      "7f74891dfe370af612a912e3e1a783a4f2450fb3b0036b4f654ca78810e636a4"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "ceabdb8c196809c98b6591645b158110712e7ec88fc884dcae9b98e6e148db82"
   end
 
   depends_on "cmake" => :build
