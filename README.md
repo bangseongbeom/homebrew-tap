@@ -1,40 +1,18 @@
-# [txiki.js](https://txikijs.org/) Homebrew Tap
+# 방성범 (Bang Seongbeom) Tap
 
-## How do I install txiki.js?
+## [txiki.js](https://txikijs.org/)
 
-```sh
-brew install bangseongbeom/txikijs/txikijs
-```
-
-Alternatively, you can use the following methods:
-
-<details>
-<summary>Using <code>brew tap</code></summary>
+Install:
 
 ```sh
-brew tap bangseongbeom/txikijs
-brew install txikijs
+brew install bangseongbeom/tap/txikijs
 ```
 
-</details>
-
-<details>
-<summary>Using <code>brew bundle</code></summary>
-
-In a `Brewfile`:
-
-```ruby
-tap "bangseongbeom/txikijs"
-brew "txikijs"
-```
-
-</details>
-
-## How do I uninstall txiki.js?
+Uninstall:
 
 ```sh
 brew uninstall txikijs
-brew untap bangseongbeom/txikijs
+brew untap bangseongbeom/tap
 ```
 
 ## Documentation
