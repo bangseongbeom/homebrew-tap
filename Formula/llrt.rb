@@ -8,6 +8,12 @@ class Llrt < Formula
   license "Apache-2.0"
   head "https://github.com/awslabs/llrt.git", branch: "main"
 
+  bottle do
+    root_url "https://github.com/bangseongbeom/homebrew-tap/releases/download/llrt-0.8.1-beta"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "15ff40e13b1c63acaca7707f830cf3aced5f90e0cebc6fcbfffc244d9ba584ab"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "6658458a99471102a6e8c2783cb7cb0cf1259d41b3a5f15415cfea467ff48114"
+  end
+
   depends_on "cmake" => :build
   depends_on "corepack" => :build
   depends_on "make" => :build
