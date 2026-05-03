@@ -17,4 +17,5 @@ jobs:
         continue-on-error: true
         with:
           token: ${{ secrets.TOKEN }}
+          tap: bangseongbeom/tap          
           livecheck: true
