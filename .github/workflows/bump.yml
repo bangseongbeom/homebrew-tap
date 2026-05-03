@@ -1,0 +1,19 @@
+name: Bump
+
+on:
+  schedule:
+    # Every 8 hours
+    - cron: "0 */8 * * *"
+  workflow_dispatch:
+
+jobs:
+  bump:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v6
+      - name: Update Homebrew formula
+        uses: dawidd6/action-homebrew-bump-formula@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          livecheck: true
