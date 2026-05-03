@@ -6,9 +6,6 @@ on:
     - cron: "0 */8 * * *"
   workflow_dispatch:
 
-permissions:
-  pull-requests: write
-
 jobs:
   bump:
     runs-on: macos-latest
@@ -17,6 +14,7 @@ jobs:
         uses: actions/checkout@v6
       - name: Update Homebrew formula
         uses: dawidd6/action-homebrew-bump-formula@v7
+        continue-on-error: true
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.TOKEN }}
           livecheck: true
