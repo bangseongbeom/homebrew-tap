@@ -10,8 +10,6 @@ jobs:
   bump:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v6
       - name: Update Homebrew formula
         uses: dawidd6/action-homebrew-bump-formula@v7
         with:
