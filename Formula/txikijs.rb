@@ -3,8 +3,8 @@ class Txikijs < Formula
   homepage "https://txikijs.org"
   # pull from git tag to get submodules
   url "https://github.com/saghul/txiki.js.git",
-    tag:      "v26.4.0",
-    revision: "e914852b2d0fe186c8f5391b37e04057f6307ff7"
+    tag:      "v26.5.0",
+    revision: "9d7b4dbdf0cd653eab51a77144a2db77c5abcd1e"
   license "MIT"
   head "https://github.com/saghul/txiki.js.git", branch: "master"
 
