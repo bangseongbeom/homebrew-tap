@@ -1,20 +1,5 @@
 # 방성범 (Bang Seongbeom) Tap
 
-## [txiki.js](https://txikijs.org/)
-
-Install:
-
-```sh
-brew install bangseongbeom/tap/txikijs
-```
-
-Uninstall:
-
-```sh
-brew uninstall txikijs
-brew untap bangseongbeom/tap
-```
-
 ## [LLRT](https://github.com/awslabs/llrt)
 
 Install:
