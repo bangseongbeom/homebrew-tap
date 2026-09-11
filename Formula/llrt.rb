@@ -3,8 +3,8 @@ class Llrt < Formula
   homepage "https://github.com/awslabs/llrt"
   # pull from git tag to get submodules
   url "https://github.com/awslabs/llrt.git",
-    tag:      "v0.8.1-beta",
-    revision: "a3a1463732c7027645b2bc95b49b00b2027291bf"
+    tag:      "v0.9.0-beta",
+    revision: "0a10758f31eec3e5421a6b8ff1f459df1f4354c4"
   license "Apache-2.0"
   head "https://github.com/awslabs/llrt.git", branch: "main"
 
