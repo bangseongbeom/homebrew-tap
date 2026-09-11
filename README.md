@@ -1,26 +1,16 @@
-# 방성범 (Bang Seongbeom) Tap
+# Bangseongbeom Tap
 
-## [txiki.js](https://txikijs.org/)
+## How do I install these formulae?
 
-Migrated to [saghul/tap](https://github.com/saghul/homebrew-tap):
+`brew install bangseongbeom/tap/<formula>`
 
-```sh
-brew install saghul/tap/txikijs
-```
+Or `brew tap bangseongbeom/tap` and then `brew install <formula>`.
 
-## [LLRT](https://github.com/awslabs/llrt)
+Or, in a `brew bundle` `Brewfile`:
 
-Install:
-
-```sh
-brew install bangseongbeom/tap/llrt
-```
-
-Uninstall:
-
-```sh
-brew uninstall llrt
-brew untap bangseongbeom/tap
+```ruby
+tap "bangseongbeom/tap"
+brew "<formula>"
 ```
 
 ## Documentation
