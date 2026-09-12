@@ -45,9 +45,7 @@ class Llrt < Formula
   end
 
   test do
-    # There is an issue where it outputs v0.8.0-beta even though it is v0.8.1-beta.
-    # https://github.com/awslabs/llrt/issues/1446#issue-4067925791
-    # assert_match version.to_s, shell_output("#{bin}/llrt --version")
+    assert_match version.to_s, shell_output("#{bin}/llrt --version")
     assert_equal "hello", shell_output("#{bin}/llrt -e \"console.log('hello')\"").strip
   end
 end
