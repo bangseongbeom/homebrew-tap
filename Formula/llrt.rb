@@ -14,9 +14,9 @@ class Llrt < Formula
   end
 
   bottle do
-    root_url "https://github.com/bangseongbeom/homebrew-tap/releases/download/llrt-0.9.0-beta"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "d0bbcd7248fb6f5b8ae59ba0b3356c2880268ad87d7a702044516c000cfef3e0"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "3dd710820568017b57e75c5282da0a8bff898b8f9604d9686defd91b6d241f7f"
+    root_url "https://github.com/bangseongbeom/homebrew-tap/releases/download/llrt-0.10.0-beta"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "089fcf1ad8e80cb447d589bdce77bd64dceeaaee1afb5a69409bc6eac720e515"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "ec741837a91833c18f1bf7a7304611ed9fc53fa0f9ca8aaa79c153566f654b69"
   end
 
   depends_on "cmake" => :build
